@@ -11,7 +11,7 @@ $Boxstarter.AutoLogin=$true # Save my password securely and auto-login after a r
 # Windows Features
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V-All -All -Verbose
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
-Enable-WindowsOptionalFeature -Online -FeatureName containers –All 
+Enable-WindowsOptionalFeature -Online -FeatureName containers -All 
 
 # IIS
 Enable-WindowsOptionalFeature -FeatureName "IIS-WebServerRole" -Online -All -NoRestart
