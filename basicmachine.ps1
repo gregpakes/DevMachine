@@ -14,18 +14,18 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 Enable-WindowsOptionalFeature -Online -FeatureName containers –All 
 
 # IIS
-Enable-WindowsOptionalFeature -FeatureName "IIS-WebServerRole" -Online -All -NoRestart;
-Enable-WindowsOptionalFeature -FeatureName "IIS-ISAPIExtensions" -Online -All -NoRestart;
-Enable-WindowsOptionalFeature -FeatureName "IIS-ASP" -Online -All -NoRestart;
-Enable-WindowsOptionalFeature -FeatureName "IIS-HttpCompressionStatic" -Online -All -NoRestart;
-Enable-WindowsOptionalFeature -FeatureName "IIS-HttpCompressionDynamic" -Online -All -NoRestart;
-Enable-WindowsOptionalFeature -FeatureName "IIS-DefaultDocument" -Online -All -NoRestart;
-Enable-WindowsOptionalFeature -FeatureName "IIS-HttpErrors" -Online -All -NoRestart;
-Enable-WindowsOptionalFeature -FeatureName "IIS-HttpLogging" -Online -All -NoRestart;
-Enable-WindowsOptionalFeature -FeatureName "IIS-ASPNET45" -Online -All -NoRestart;
-Enable-WindowsOptionalFeature -FeatureName "IIS-ApplicationInit" -Online -All -NoRestart;
-Enable-WindowsOptionalFeature -FeatureName "IIS-WebSockets" -Online -All -NoRestart;
-Enable-WindowsOptionalFeature -FeatureName "IIS-WebServerManagementTools" -Online -All -NoRestart;
+Enable-WindowsOptionalFeature -FeatureName "IIS-WebServerRole" -Online -All -NoRestart
+Enable-WindowsOptionalFeature -FeatureName "IIS-ISAPIExtensions" -Online -All -NoRestart
+Enable-WindowsOptionalFeature -FeatureName "IIS-ASP" -Online -All -NoRestart
+Enable-WindowsOptionalFeature -FeatureName "IIS-HttpCompressionStatic" -Online -All -NoRestart
+Enable-WindowsOptionalFeature -FeatureName "IIS-HttpCompressionDynamic" -Online -All -NoRestart
+Enable-WindowsOptionalFeature -FeatureName "IIS-DefaultDocument" -Online -All -NoRestart
+Enable-WindowsOptionalFeature -FeatureName "IIS-HttpErrors" -Online -All -NoRestart
+Enable-WindowsOptionalFeature -FeatureName "IIS-HttpLogging" -Online -All -NoRestart
+Enable-WindowsOptionalFeature -FeatureName "IIS-ASPNET45" -Online -All -NoRestart
+Enable-WindowsOptionalFeature -FeatureName "IIS-ApplicationInit" -Online -All -NoRestart
+Enable-WindowsOptionalFeature -FeatureName "IIS-WebSockets" -Online -All -NoRestart
+Enable-WindowsOptionalFeature -FeatureName "IIS-WebServerManagementTools" -Online -All -NoRestart
 
 # Browsers
 cinst GoogleChrome
